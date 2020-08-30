@@ -9,6 +9,17 @@
 [![GitHub release](https://img.shields.io/github/release/nutzam/nutz.svg)](https://github.com/nutzam/nutz/releases)
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 [![Skywalking Tracing](https://img.shields.io/badge/Skywalking%20Tracing-enable-brightgreen.svg)](https://github.com/OpenSkywalking/skywalking)
+项目更改目标：
+1.全面使用JDK15
+2.去除http模块，使用原生jdk9出来就能使用HttpClient
+3.使用JDK14支持的Null异常判断
+4.全面支持jdk8 stream
+5.上default interface 写法，这样 Ioc 与 Ioc2 合并成一个接口。
+6.使用ins of语法
+7.全面使用jdk 7-jdk15的特性，对Nutz进行增删减改造。
+8.增强dao功能
+9.支持真正意义的插件热加载等。
+10.MVC基于servlet 4.0进行改造
 
 ## 项目目标
 
